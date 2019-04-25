@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Port:"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/et_portChange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="00000"
+            android:inputType="number"
+            android:textSize="25dp"
+            />
+
+    </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center_horizontal">
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="IP Address:"
+           android:gravity="center"
+           android:textSize="25dp"
+           android:layout_marginRight="10dp"
+           android:textColor="#000000"
+           android:textStyle="bold"
+           android:padding="5dp"
+           />
+
+       <EditText
+           android:id="@+id/et_IPChange"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:hint="XXX.XXX.XXX.XXX"
+           android:textSize="25dp"
+           android:gravity="center"
+           />
+
+   </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_ChangeDone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DONE"/>
+    <Button
+        android:id="@+id/btn_ChangeCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel"/>
+
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/IV_newConnected"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/new_connected" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_toLeftOf="@id/IV_newConnected"
+        android:src="@drawable/logo_antor"/>
+
+    <TextView
+        android:id="@+id/tv_newStatusText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="please connect"
+        android:layout_below="@id/IV_newConnected"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        />
+
+    <ImageView
+        android:id="@+id/IV_newStatus"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/new_locked"
+        android:layout_below="@id/tv_newStatusText"
+        />
+
+    <LinearLayout
+        android:id="@+id/LL_newLay01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/IV_newStatus"
+        android:gravity="center_horizontal"
+        android:layout_margin="3dp">
+
+        <!--
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2-Step Security"
+            android:layout_marginRight="20dp"
+            android:textSize="25dp"/>
+        <Switch
+            android:id="@+id/switch_2stepSecurity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+            -->
+        <Button
+            android:id="@+id/btn_connectToBike"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:text="Connecto to bike"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/IV_newMakeBeep"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:src="@drawable/new_beep"
+        android:layout_below="@id/LL_newLay01"
+        android:layout_margin="3dp"
+        />
+
+
+
+    <Button
+        android:id="@+id/btn_neSetting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/IV_newMakeBeep"
+        android:text="Seeting"/>
+</RelativeLayout>

@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "200069551085",
+    "firebase_url": "https://wifi-bike-security.firebaseio.com",
+    "project_id": "wifi-bike-security",
+    "storage_bucket": "wifi-bike-security.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200069551085:android:f2e56d8f11ec73b3",
+        "android_client_info": {
+          "package_name": "wifibs.dexian.secretdevltd.com.wifibikesecurity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "200069551085-sg3tkil4cmcva1kpsivnsua5amb30ma3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "wifibs.dexian.secretdevltd.com.wifibikesecurity",
+            "certificate_hash": "17aefe1c8032ce7e7e535900869d1a70f0adcd66"
+          }
+        },
+        {
+          "client_id": "200069551085-lm1deilsv2s2d77mt9nrdokqejmoomhs.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "200069551085-lm1deilsv2s2d77mt9nrdokqejmoomhs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBejS-F1LuXM-M4F-piTiJP7LdDST7QkSs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "200069551085-lm1deilsv2s2d77mt9nrdokqejmoomhs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
